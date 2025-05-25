@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="french">
+    <head><title>formulaire OTAKU</title></head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css du formulaire 01.css">
+    <body>
+        <div class="main">
+            <div class="container">
+                <h1><span>F</span>ORMULAIRE <span>D</span>ES <span>O</span>TAKUS</span></h1>
+                <div class="formulaire">
+                    <form action="#" method="post">
+                    <h2>Information personnelles</h2>
+                    <div class="grp">
+                       <label for="nom">Nom :</label>
+                       <input type="text" id="nom" name="nom" required>
+                    </div>
+
+                    <div class="grp">
+                       <label for="prenom">prenom :</label>
+                       <input type="text" id="prenom" name="prenom" required>
+                    </div>
+
+                    <div class="grp">
+                        <label for="sexe">Sex</label>
+                        M<input type="radio" name="sexe" value="M">
+                        F<input type="radio" name="sexe" value="F">
+                    </div>
+
+                    <div class="grp">
+                        <label for="motdepasse">Mot de passe</label>
+                        <input type="password" id="mot de passe" name="mot de passe" required>
+                    </div>
+
+                    <div class="grp">
+                        <label for="confirmer">Confirmation</label>
+                        <input type="password" id="password" name="mot de passe" required>
+                    </div>
+
+                    <div class="grp">
+                       <label for="email">Email :</label>
+                       <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <h2>Information sur les preferences</h2>
+
+                    <div class="grp">
+                        Animes preferes <input type="text  area" area="5" name="Animes">
+                    </div>
+
+                    <div class="grp">
+                        Mangas preferes <input type="text  area" area="5" name="Mangas">
+                    </div>
+
+                    <div class="grp">
+                        Jeux video preferes <input type="text  area" area="5" name="Jeux">
+                    </div>
+
+                    <h2>Information sur les competences</h2>
+
+                    <div class="grp">
+                         <select name="Niveau de connaissance du Japonais" id="c1">
+                            <option value="aucun">Aucun</option>
+                            <option value="debutant">Debutant</option>
+                            <option value="intermadiaire">Intermadiaire</option>
+                            <option value="avance">Avance</option>
+                            <option value="pro">Pro</option>
+                        </select>
+                    </div>
+
+                    <div class="grp">
+                         <select name="Competences wn matiere de dessin" id="c2">
+                            <option value="aucun">Aucun</option>
+                            <option value="debutant">Debutant</option>
+                            <option value="intermadiaire">Intermadiaire</option>
+                            <option value="avance">Avance</option>
+                            <option value="pro">Pro</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button type="reset">Annuler</button>
+                    </div>
+
+                    <div>
+                        <button type="submit">confirmer</button>
+                    </div>
+
+                </form>
+                </div>
+            </div>
+        </div>
+      
+    </body>
+
+</html>
